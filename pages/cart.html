@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/cart.css">
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Barbershop | Cart</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="/index.html#home" class="logo-text">Barbershop</a>
+
+      <ul class="nav-menu">
+       <button id="menu-close-button" type="button">×</button>
+        <li><a href="/index.html#home" class="nav-link">Home</a></li>
+        <li><a href="/index.html#products" class="nav-link">Products</a></li>
+        <li><a href="/index.html#about" class="nav-link">About</a></li>
+        <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+     <button id="menu-open-button" type="button">☰</button>
+    </nav>
+  </header>
+
+  <main class="cart-page">
+    <section class="cart-section">
+      <div class="section-content cart-layout">
+        <div class="cart-form-side">
+          <h1 class="cart-title">Your details:</h1>
+          <form class="cart-form">
+            <label for="cart-name">
+              <span>Name</span>
+              <input
+                type="text"
+                name="name"
+                id="cart-name"
+                autocomplete="name"
+                required
+              >
+            </label>
+            <label for="cart-email">
+              <span>Email</span>
+              <input
+                type="email"
+                name="email"
+                id="cart-email"
+                autocomplete="email"
+                required
+              >
+            </label>
+            <label for="cart-phone">
+              <span>Phone</span>
+              <input
+                type="tel"
+                name="phone"
+                id="cart-phone"
+                autocomplete="tel"
+                required
+              >
+            </label>
+            <label for="cart-address">
+              <span>Street address</span>
+              <input
+                type="text"
+                name="address"
+                id="cart-address"
+                autocomplete="street-address"
+                required
+              >
+            </label>
+            <div class="cart-form-row">
+              <label for="cart-zip">
+                <span>Zip code</span>
+                <input
+                  type="text"
+                  name="zip"
+                  id="cart-zip"
+                  autocomplete="postal-code"
+                  required
+                >
+              </label>
+              <label for="cart-region">
+                <span>Region</span>
+                <input
+                  type="text"
+                  name="region"
+                  id="cart-region"
+                  autocomplete="address-level1"
+                  required
+                >
+              </label>
+            </div>
+            <label for="cart-country">
+              <span>Country</span>
+              <input
+                type="text"
+                name="country"
+                id="cart-country"
+                autocomplete="country-name"
+                required
+              >
+            </label>
+            <a href="./payment.html" class="button order-now cart-pay-button">
+              Go to pay
+            </a>
+          </form>
+        </div>
+        <div class="cart-summary-side">
+          <button type="button" id="clear-cart-button" class="clear-cart-button"> Clear cart</button>
+          <div class="cart-items" id="cart-items"></div>
+          <h2 class="cart-total" id="cart-total">Total cost: 0 kr</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Barbershop ®</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <p class="footer-terms">Terms and conditions</p>
+    </div>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+  <script src="/js/navigation.js"></script>
+</body>
+
+</html>

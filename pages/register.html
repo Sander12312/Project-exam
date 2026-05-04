@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/register.css">
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Barbershop | Register</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="/index.html#home" class="logo-text">Barbershop</a>
+
+      <ul class="nav-menu">
+       <button id="menu-close-button" type="button">×</button>
+        <li><a href="/index.html#home" class="nav-link">Home</a></li>
+        <li><a href="/index.html#products" class="nav-link">Products</a></li>
+        <li><a href="/index.html#about" class="nav-link">About</a></li>
+        <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+     <button id="menu-open-button" type="button">☰</button>
+    </nav>
+  </header>
+<!--Register-->
+  <main class="register-page">
+    <div class="register-wrapper">
+      <form class="register-card" id="register-form">
+        <h1 class="register-title">Register</h1>
+          <div class="register-group">
+            <label for="register-name">Name</label>
+            <input
+              id="register-name"
+              name="name"
+              type="text"
+              autocomplete="username"
+              required
+            >
+          </div>
+          <div class="register-group">
+            <label for="register-email">Email</label>
+            <input
+              id="register-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            >
+          </div>
+          <div class="register-group">
+            <label for="register-password">Password</label>
+            <input
+              id="register-password"
+              name="password"
+              type="password"
+              autocomplete="new-password"
+              required
+            >
+          </div>
+            <p class="register-login">
+              Already have an account?
+            <a href="/pages/login.html">Login here</a>
+           </p>
+           <p class="register-message" id="register-message"></p>
+             <button type="submit" class="register-button">Register</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Barbershop ®</p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+
+      <p class="footer-terms">Terms and conditions</p>
+    </div>
+  </footer>
+  <script src="/js/register.js"></script>
+  <script src="/js/navigation.js"></script>
+</body>
+</html>

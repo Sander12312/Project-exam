@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/index.css">
+<!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Barbershop | Mainpage</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="/index.html" class="logo-text">Barbershop</a>
+
+      <ul class="nav-menu">
+       <button id="menu-close-button" type="button">×</button>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="/pages/login.html" class="nav-link">Login</a></li>
+        <li><a href="/pages/register.html" class="nav-link">Register</a></li>
+      </ul>
+     <button id="menu-open-button" type="button">☰</button>
+    </nav>
+  </header>
+<!--Hero section-->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Sharp style! Sharp confidence</h2>
+          <h3 class="subtitle">Your hair is an important and big part of your look. Make sure it looks the way you deserve</h3>
+          <p class="description">
+            At barbershop you have an oportunity to treat your hair with manners and respect for yourself.
+            Here you can order products or order a cut. Whatever you need for your hair!
+          </p>
+
+          <div class="buttons">
+            <a href="#products" class="button order-now">Order now</a>
+            <a href="#contact" class="button contact-us">Contact us</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img id="hero-image" src="/images/logo.jpg" alt="Barbershop logo">
+        </div>
+      </div>
+    </section>
+<!--News section-->
+    <section class="news-section" id="news">
+      <div class="section-content">
+        <h2 class="section-title">News</h2>
+
+        <div class="news-slider">
+  <button class="arrow-btn left" aria-label="Previous">←</button>
+
+  <ul class="news-list" id="carousel-list">
+    <li class="news-item">
+      <a href="/pages/productinfo.html" class="card">
+        <img src="/images/hair.jpg" alt="Hair products" class="card-image">
+        <div class="card-content">
+          <h3 class="card-price">Hair</h3>
+        </div>
+      </a>
+    </li>
+
+    <li class="news-item">
+      <a href="/pages/productinfo.html" class="card">
+        <img src="/images/Beard.jpg" alt="Beard products" class="card-image">
+        <div class="card-content">
+          <h3 class="card-price">Beard</h3>
+        </div>
+      </a>
+    </li>
+
+    <li class="news-item">
+      <a href="/pages/productinfo.html" class="card">
+        <img src="/images/face.jpg" alt="Face products" class="card-image">
+        <div class="card-content">
+          <h3 class="card-price">Face</h3>
+        </div>
+      </a>
+    </li>
+  </ul>
+
+  <button class="arrow-btn right" aria-label="Next">→</button>
+</div>
+      </div>
+    </section>
+<!--Products section-->
+    <section class="products-section" id="products">
+      <div class="section-content">
+        <h2 class="section-title">Products</h2>
+        <div class="products-list" id="product-list"></div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-content about-content">
+        <div class="about-text">
+          <h2 class="section-title light-title">About us</h2>
+
+          <p class="about-description">
+            This is a text that informs the client about what this company is all about.
+            Also there is some text that makes the customer get to know us more.
+          </p>
+
+          <div class="about-socials">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+             <a href="#" aria-label="Instagram" class="social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+           <a href="#" aria-label="Twitter" class="social-link">
+              <i class="fa-brands fa-x-twitter"></i>
+           </a>
+          </div>
+
+          <ul class="about-list">
+            <li><i class="fa-solid fa-check"></i> Skillfull</li>
+             <li><i class="fa-solid fa-check"></i> Polite</li>
+            <li><i class="fa-solid fa-check"></i> Professional</li>
+          </ul>
+        </div>
+
+        <div class="about-image-wrapper">
+          <img src="/images/logo.jpg" alt="Barbershop logo" class="about-image">
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments-section" id="treatments">
+      <div class="section-content">
+        <h2 class="section-title">Treatments</h2>
+
+        <div class="treatments-list">
+          <article class="treatment-card">
+            <img src="/images/hair.jpg" alt="Fade treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Fade</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+
+          <article class="treatment-card">
+            <img src="/images/beard.jpg" alt="Beard treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Beard</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+
+          <article class="treatment-card">
+            <img src="/images/haircut.jpg" alt="Haircut treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Haircut</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+
+          <article class="treatment-card">
+            <img src="/images/haircut+beard.jpg" alt="Haircut and beard treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Haircut + beard</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+
+          <article class="treatment-card">
+            <img src="/images/totalmakeover.jpg" alt="Total makeover treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Total makeover</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+
+          <article class="treatment-card">
+            <img src="/images/colortreatment+haircut.jpg" alt="Color treatment" class="treatment-image">
+            <div class="treatment-content">
+              <h3 class="treatment-title">Color-treatment</h3>
+              <p class="treatment-text">
+                A popular choice for the one who wants to look sharp for your next action
+              </p>
+              <a href="#" class="treatment-button">Order now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<!--Contact section-->
+    <section class="contact-section" id="contact">
+      <div class="section-content">
+        <h2 class="section-title">Contact us</h2>
+
+        <div class="contact-content">
+          <div class="contact-image-wrapper">
+            <img src="/images/contact.jpg" alt="Person using a phone and laptop" class="contact-image">
+          </div>
+
+          <form class="contact-form">
+            <label for="contact-name" class="sr-only">Your name</label>
+            <input id="contact-name" type="text" name="name" placeholder="Your name" class="contact-input">
+            <label for="contact-email" class="sr-only">Your email</label>
+            <input id="contact-email" type="email" name="email" placeholder="Your Email" class="contact-input">
+            <label for="contact-message" class="sr-only">Your message</label>
+            <textarea id="contact-message" name="message" placeholder="Your Message" class="contact-textarea"></textarea>
+            <button type="submit" class="contact-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section" id="info">
+      <div class="section-content">
+        <h2 class="section-title info-title">Info</h2>
+
+        <div class="info-content">
+          <div class="info-details">
+            <ul class="info-list">
+              <li><span class="info-icon"><i class="fa-solid fa-location-dot"></i></span> Langgateverien 23, 4327 Sandnes</li>
+              <li><span class="info-icon"><i class="fa-solid fa-envelope"></i></span> info@barbershop.com</li>
+              <li><span class="info-icon"><i class="fa-solid fa-phone"></i></span> +47 97463307</li>
+              <li><span class="info-icon"><i class="fa-solid fa-clock"></i></span> Mon–Fri: 09:00–17:00</li>
+              <li><span class="info-icon"><i class="fa-solid fa-clock"></i></span> Sat: 10:00–15:00</li>
+              <li><span class="info-icon"><i class="fa-solid fa-clock"></i></span> Sun: Closed</li>
+              <li><span class="info-icon"><i class="fa-solid fa-globe"></i></span> www.barbershop.com</li>
+            </ul>
+          </div>
+
+          <div class="info-image-wrapper">
+            <img src="/images/info.jpg" alt="Barbershop information" class="info-image">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Barbershop ®</p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+
+      <p class="footer-terms">Terms and conditions</p>
+    </div>
+  </footer>
+
+  <script src="/js/index.js"></script>
+  <script src="/js/navigation.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.completion-section {
+  background: #eeeeee;
+  min-height: calc(100vh - 72px);
+  padding: 6rem 1rem 8rem;
+}
+
+.completion-content {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.completion-title {
+  font-size: 2.4rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: 1.5rem;
+}
+
+.completion-check {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: 1.5rem;
+}
+
+.completion-subtitle {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: 2.5rem;
+}
+
+.completion-order-number {
+  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: 3rem;
+}
+
+.completion-message {
+  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  line-height: 1.5;
+}
+
+.back-to-products-button {
+  background: transparent;
+  border: none;
+  color: var(--color-black);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.back-to-products-button:hover {
+  color: var(--color-red);
+}
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 900px) {
+  .completion-section {
+    padding: 8rem 1rem 10rem;
+  }
+
+  .completion-title {
+    font-size: 2.6rem;
+  }
+
+  .completion-subtitle {
+    font-size: 2.3rem;
+  }
+}

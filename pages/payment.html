@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/payment.css">
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Barbershop | Payment</title>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="/index.html#home" class="logo-text">Barbershop</a>
+
+      <ul class="nav-menu">
+       <button id="menu-close-button" type="button">×</button>
+        <li><a href="/index.html#home" class="nav-link">Home</a></li>
+        <li><a href="/index.html#products" class="nav-link">Products</a></li>
+        <li><a href="/index.html#about" class="nav-link">About</a></li>
+        <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+     <button id="menu-open-button" type="button">☰</button>
+    </nav>
+  </header>
+
+  <main class="payment-page">
+    <section class="payment-section">
+      <div class="section-content">
+        <div class="payment-card">
+          <h1 class="payment-title">Payment</h1>
+          <form class="payment-form">
+            <label for="payment-name">
+              <span>Name</span>
+            </label>
+            <input id="payment-name" type="text" name="name" autocomplete="name" required>
+
+            <label for="payment-card-number">
+              <span>Bankcard number</span>
+            </label>
+            <input id="payment-card-number" type="text" name="card-number" inputmode="numeric" autocomplete="cc-number" required>
+
+            <label for="payment-cvc">
+              <span>CVC</span>
+            </label>
+            <input id="payment-cvc" type="text" name="cvc" class="small-input" inputmode="numeric" autocomplete="cc-csc" required>
+
+            <label for="payment-expiration-date">
+              <span>Expiration date</span>
+            </label>
+            <input id="payment-expiration-date" type="text" name="expiration-date" placeholder="MM/YY" autocomplete="cc-exp" required>
+
+            <a href="./completion.html" class="payment-button">Pay</a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Barbershop ®</p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+
+      <p class="footer-terms">Terms and conditions</p>
+    </div>
+  </footer>
+<script src="/js/payment.js"></script>
+<script src="/js/navigation.js"></script>
+</body>
+</html>

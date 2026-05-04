@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/product.css">
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Barbershop | Product</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="/index.html#home" class="logo-text">Barbershop</a>
+
+      <ul class="nav-menu">
+       <button id="menu-close-button" type="button">×</button>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="/pages/login.html" class="nav-link">Login</a></li>
+        <li><a href="/pages/register.html" class="nav-link">Register</a></li>
+      </ul>
+     <button id="menu-open-button" type="button">☰</button>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="product-page">
+    <section class="product-page-section">
+      <div class="section-content">
+
+        <!-- SORT -->
+        <div class="product-topbar">
+          <label for="sort" class="visually-hidden">Sort products</label>
+          <select id="sort" class="product-sort">
+            <option value="high-low">Price high-low</option>
+            <option value="low-high">Price low-high</option>
+          </select>
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="product-grid">
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product1.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">499</h3>
+                <p class="card-status">100+ in store</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product2.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">599</h3>
+                <p class="card-status">50+ in store</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product3.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">699</h3>
+                <p class="card-status">50+ in store</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product1.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">499</h3>
+                <p class="card-status out-of-stock">Out of stock</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product2.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">599</h3>
+                <p class="card-status out-of-stock">Out of stock</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="product-item">
+            <a href="./productinfo.html" class="card">
+              <img src="../images/product3.jpg" alt="Product image" class="card-image">
+              <div class="card-content">
+                <p class="card-label">Product</p>
+                <h3 class="card-price">699</h3>
+                <p class="card-status out-of-stock">Out of stock</p>
+              </div>
+            </a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Barbershop ®</p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+
+      <p class="footer-terms">Terms and conditions</p>
+    </div>
+  </footer>
+<script src="/js/navigation.js"></script>
+</body>
+</html>
