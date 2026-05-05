@@ -40,8 +40,8 @@
 }
 
 #hero-image {
-  width: 180px;
-  height: 180px;
+  width: 580px;
+  height: 280px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -269,7 +269,7 @@
 }
 
 .about-image {
-  width: 200px;
+  width: 400px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
@@ -524,8 +524,8 @@
   }
 
   #hero-image {
-    width: 240px;
-    height: 240px;
+    width: 540px;
+    height: 540px;
   }
 
   .hero-details {
@@ -611,8 +611,8 @@
   }
 
   .about-image {
-    width: 240px;
-    height: 240px;
+    width: 440px;
+    height: 440px;
   }
 
   .treatments-list {

@@ -4,6 +4,12 @@
 
 During this project I used AI as a support tool to help me improve and understand parts of my work.
 
+### Branding and visual assets
+
+I used AI to generate a simple placeholder logo for the project branding instead of using an existing company logo.
+
+The final logo was selected and implemented by me.
+
 ### Brainstorming and structure
 
 I used AI to discuss page structure, user flow, and how different pages should connect together.
@@ -59,4 +65,4 @@ Examples:
 
 ## Reflection
 
-AI was mainly used as a support tool for feedback, debugging, and improving existing code. All final code was reviewed, understood, and implemented by me.
+AI was mainly used as a support tool for feedback, debugging, and improving existing code. All final code was reviewed, tested, adjusted, and understood by me before implementation.
