@@ -63,7 +63,7 @@ if (form) {
       form.reset();
 
       setTimeout(() => {
-        window.location.href = "/pages/login.html";
+        window.location.href = "login.html";
       }, 1500);
 
     } catch (error) {
