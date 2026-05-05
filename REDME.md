@@ -1,3 +1,24 @@
+# Barbershop E-commerce
+
+A responsive e-commerce web application built with Vanilla JavaScript, HTML and CSS.
+
+## Features
+
+- Product feed
+- Product details page
+- User registration
+- User login
+- Shopping cart
+- Checkout flow
+- Success page
+
+## Tech stack
+
+- HTML
+- CSS
+- Vanilla JavaScript
+- Noroff API
+
 # AI Usage Log
 
 ## How I used AI in this project
