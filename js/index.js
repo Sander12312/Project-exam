@@ -47,7 +47,7 @@ async function loadProducts() {
       const price = product.discountedPrice || product.price;
 
       productList.innerHTML += `
-        <a href="/pages/productinfo.html?id=${product.id}" class="card">
+        <a href="pages/productinfo.html?id=${product.id}" class="card">
           <img src="${product.image.url}" alt="${product.image.alt || product.title}" class="card-image">
           <div class="card-content">
             <p class="card-label">${product.title}</p>
